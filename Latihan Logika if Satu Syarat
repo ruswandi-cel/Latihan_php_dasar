@@ -1,0 +1,240 @@
+if (syarat) {
+    statement;
+}
+
+1. Membandingkan Dua Angka
+
+$a=10;
+$b=10;
+if ( $a==$b ) {
+     echo "sama";
+}
+
+==============================
+
+2. Membandingkan Dua Nama 
+
+$nama="Budi";
+$nama2="Budi";
+if($nama==$nama2) {
+ echo "Nama sama";
+}
+
+=============================
+
+3. Memeriksa Umur 
+
+$umur=20;
+if($umur > 17) {
+ echo "Sudah Dewasa";
+}
+
+============================
+
+4. Memeriksa NIlai 
+
+$nilai=80;
+if ($nilai >= 75 ) {
+echo "Lulus";
+}
+
+===========================
+
+5. Memeriksa Saldo
+
+$saldo=50000;
+if ($saldo > 0 ) {
+ echo "Saldo Tersedia";
+}
+
+===========================
+
+6. Memeriksa Password 
+
+$password="123456";
+if ($password === "123456") {
+ echo "Password Benar";
+}
+
+==========================
+
+7. Memeriksa Jumlah Data
+
+$jumlah=0;
+if ($jumlah === 0) {
+ echo "Data Kosong";
+}
+
+==========================
+
+8. Memeriksa Umur 
+
+$umur=15;
+if ($umur < 17) {
+ echo "Belum Dewasa"
+}
+
+=========================
+
+9. Memeriksa Harga 
+
+$harga=10000;
+if ($harga <= 10000) {
+ echo "Harga Terjangkau";
+}
+
+=======================
+
+10. Memeriksa Status 
+
+$status="aktif";
+if ($status === "aktif") {
+echo "Akun Aktif";
+}
+
+========================
+
+11. Membandingkan Dua Angka
+
+$a=15;
+$b=10;
+if ( $a > $b ) {
+ echo "A lebih besar";
+}
+
+=======================
+
+12. Memeriksa Nilai KKM
+
+$nilai=65;
+$kkm=70;
+if ($nilai < $kkm) {
+ echo "Nilai di bawah KKM";
+}
+
+======================
+
+13. Memeriksa Stok Barang
+
+$stok=5;
+$minimal=5;
+if ($stok <= $minimal) {
+ echo "Stok perlu diperhatikan";
+}
+
+=====================
+
+14. Memeriksa Batas Umur 
+
+$umur=18;
+$batas=18;
+if ($umur >= $batas) {
+ echo "Boleh mendaftar";
+}
+
+===================
+
+15. Memeriksa Username 
+
+$username="admin";
+if ( $username != "guest" ) {
+ echo "Bukan Pengguna tamu";
+}
+
+=====================
+
+16. Memeriksa status Pesanan 
+
+$status="pending";
+if ($status != "selesai") {
+ echo "Pesanan belum sampai";
+}
+
+======================
+17. Memeriksa Nilai Tinggi 
+
+$nilai=90;
+if ($nilai > 85) {
+ echo "Nilai Sangat baik";
+}
+
+=====================
+
+18. Memeriksa jumlah barang
+
+$jumlahBarang=10;
+if ($jumlahBarng >= 10) {
+ echo "jumlah barang mencukupi";
+}
+
+=====================
+
+19. Memeriksa Email
+
+$email="admin@example.com";
+if ($email === "admin@example.com") {
+ echo "Email admin";
+}
+
+=====================
+
+20. Memeriksa Role
+
+$role="editor";
+if ($role != "admin") {
+ echo "Bukan administrator";
+}
+
+======================
+
+21. Membandingkan Nilai dan Tipe Data 
+
+$a=10;
+$b="10";
+if ($a == $b) {
+ echo "Nilai dan tipe sama";
+}
+
+====================
+
+22. Memeriksa Batas Umur 
+
+$umur=17;
+if ($umur >! 17) {
+ echo "Memenuhi batas umur";
+}
+
+==========================
+
+23. Memeriksa Saldo 
+
+$saldo=150000;
+$harga=100000;
+if ($saldo >= $harga) {
+ echo "Saldo Cukup";
+}
+
+===========================
+
+24. Membandingkan Password 
+
+$password="admin123";
+$passwordInput="admin123";
+if ($password === $passwordInput) {
+ echo "Login";
+}
+
+==========================
+
+25. Membandingkan kode 
+
+$kode="A001";
+if ($kode != "B001") {
+ echo "Kode berbeda";
+}
+
+===================
+
+
+
+
