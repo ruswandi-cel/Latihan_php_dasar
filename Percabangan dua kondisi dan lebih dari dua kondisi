@@ -101,7 +101,7 @@ if ($umur >= 17) {
 
 Soal 6 — Status Lampu Lalu Lintas
 
-Diketahui variabel $warna = "kuning".
+Diketahui variabel $warna = "kuning";
 Jika $warna === "merah", tampilkan "Berhenti".
 Jika $warna === "kuning", tampilkan "Hati-hati".
 Jika $warna === "hijau", tampilkan "Jalan".
@@ -112,7 +112,7 @@ $warna = "kuning"
 if ($warna === "merah") {
    echo "Berhenti";
 } elseif ($warna === "kuning")  {
-   echo "Hati-hati"
+   echo "Hati-hati";
 } elseif ($warna === "hijau")  {
    echo "Jalan";
 }else {
@@ -254,7 +254,7 @@ if ($ipk >= 3.5 && $penghasilan_ortu <= 5000000) {
 
 Soal 14 — Syarat Masuk Wahana Permainan (||)
 
-Diketahui variabel $tinggi_cm = 125 dan $pendamping = true.
+Diketahui variabel $tinggi_cm = 125 dan $pendamping === true.
 Jika $tinggi_cm >= 130 ATAU $pendamping === true, tampilkan "Boleh Naik Wahana".
 Jika tidak, tampilkan "Dilarang Naik Wahana".
 
