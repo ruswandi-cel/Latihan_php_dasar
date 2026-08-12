@@ -1,0 +1,303 @@
+1. Dua Kondisi ( if - else )
+
+if ( kondisi ) {
+    // di jalankan jika kondisi TRUE 
+}else {
+    // dijalankan jika kondisi FALSE 
+}
+
+-----------------------------------------------------
+
+2. Lebih dari Dua Kondisi ( if - elseif - else ) 
+
+if ( kondisi_1 ) {
+     // di jalankan jika kondisi_1 TRUE
+}elseif ( kondisi_2 ) {
+     // di jalankan jika kondisi_2 TRUE 
+} else {
+     // di jalankan jika SEMUA kondisi di atas FALSE 
+}
+
+=======================================
+
+Soal 1 - Cek kelulusan 
+
+Diketahui variabel $nilai = 70.
+Jika $nilai lebih besar atau sama dengan 75, tampilkan "Lulus".
+Jika tidak, tampilkan "Tidak Lulus".
+
+$nilai = 70;
+
+if ($nilai >= 75) {
+   echo "Lulus";
+} else {
+   echo "Tidak Lulus";
+}
+
+--------------------------------------------------
+
+Soal 2 — Cek Bilangan Genap / Ganjil
+
+Diketahui variabel $angka = 7.
+Jika $angka % 2 == 0, tampilkan "Genap".
+Jika tidak, tampilkan "Ganjil".
+
+$angka = 7;
+
+if ($angka %2 == 0) {
+    echo "Genap";
+} else {
+    echo "Ganjil";
+}
+
+--------------------------------------------------
+
+Soal 3 — Cek Status Login
+
+Diketahui variabel $is_login = false.
+Jika $is_login === true, tampilkan "Selamat datang".
+Jika tidak, tampilkan "Silakan login terlebih dahulu".
+
+$is_login = false;
+
+if ($is_login === true) {
+    echo "Selamat datang";
+} else {
+    echo "Silahkan login terlebih dahulu";
+}
+
+--------------------------------------------------
+
+Soal 4 — Cek Ketersediaan Stok
+
+Diketahui variabel $stok = 0.
+Jika $stok > 0, tampilkan "Barang tersedia".
+Jika tidak, tampilkan "Stok habis".
+
+$stok = 0;
+
+if ($stok > 0) {
+   echo "Barang tersedia";
+}else {
+   echo "Stok habis";
+}
+
+------------------------------------------------
+
+Soal 5 — Syarat Pembuatan SIM
+
+Diketahui variabel $umur = 16.
+Jika $umur >= 17, tampilkan "Boleh membuat SIM".
+Jika tidak, tampilkan "Belum cukup umur".
+
+$umur = 16;
+if ($umur >= 17) {
+   echo "Boleh membuat SIM";
+} else {
+   echo "Belum cukup umur";
+}
+
+------------------------------------------------
+
+Soal 6 — Status Lampu Lalu Lintas
+
+Diketahui variabel $warna = "kuning".
+Jika $warna === "merah", tampilkan "Berhenti".
+Jika $warna === "kuning", tampilkan "Hati-hati".
+Jika $warna === "hijau", tampilkan "Jalan".
+Selain warna di atas, tampilkan "Warna tidak valid".
+
+$warna = "kuning"
+
+if ($warna === "merah") {
+   echo "Berhenti";
+} elseif ($warna === "kuning")  {
+   echo "Hati-hati"
+} elseif ($warna === "hijau")  {
+   echo "Jalan";
+}else {
+   echo "Warna tidak valid";
+}
+
+------------------------------------------------ 
+
+Soal 7 — Kategori Grade Ujian
+
+Diketahui variabel $nilai = 82.
+Jika $nilai >= 85, tampilkan "Grade A".
+Jika $nilai >= 75, tampilkan "Grade B".
+Jika $nilai >= 60, tampilkan "Grade C".
+Jika di bawah 60, tampilkan "Grade D".
+
+$nilai = 82;
+if ($nilai >= 85) {
+   echo "Grade A";
+} elseif ($nilai >= 75) {
+   echo "Grade B";
+} elseif ($nilai >= 60) {
+   echo "Grade C"; 
+} else {
+   echo "Grade D";
+}
+
+------------------------------------------------
+
+Soal 8 — Waktu Sapaan Jam
+
+Diketahui variabel $jam = 14.
+Jika $jam dari 0 sampai kurang dari 12, tampilkan "Selamat Pagi".
+Jika $jam dari 12 sampai kurang dari 15, tampilkan "Selamat Siang".
+Jika $jam dari 15 sampai kurang dari 18, tampilkan "Selamat Sore".
+Selain itu, tampilkan "Selamat Malam".
+
+$jam = 14;
+
+if ($jam >= 0 && $jam < 12) {
+   echo "Selamat Pagi";
+} elseif ($jam >= 12 && $jam < 15) {
+   echo "Selamat Siang";
+} elseif ($jam >= 15 && $jam < 18) {
+   echo "Selamat Sore";
+} else {
+   echo "Selamat malam";
+}
+
+------------------------------------------------
+
+Soal 9 — Status Transaksi Pembayaran
+
+Diketahui variabel $status = "pending".
+Jika $status === "lunas", tampilkan "Pembayaran Berhasil".
+Jika $status === "pending", tampilkan "Menunggu Pembayaran".
+Selain itu, tampilkan "Pembayaran Gagal".
+
+$status = "pending";
+
+if ($status === "lunas") {
+   echo "Pembayaran Berhasil";
+} elseif ($status === "pending") {
+   echo "Menunggu Pembayaran"; 
+} else {
+   echo "Pembayaran Gagal";
+}
+
+------------------------------------------------
+
+Soal 10 — Cek Wujud Air Berdasarkan Suhu
+
+Diketahui variabel $suhu = 100.
+Jika $suhu <= 0, tampilkan "Padat (Es)".
+Jika $suhu >= 100, tampilkan "Gas (Uap)".
+Selain itu, tampilkan "Cair".
+
+$suhu = 100;
+if ($suhu <= 0) {
+   echo "Padat";
+} elseif ($suhu >= 100) {
+   echo "Gas"; 
+} else {
+   echo "Cair";
+}
+
+------------------------------------------------
+
+Soal 11 — Verifikasi Akun Admin (&&)
+
+Diketahui variabel $username = "admin" dan $password = "secret123".
+Jika $username === "admin" DAN $password === "secret123", tampilkan "Akses diterima".
+Jika tidak, tampilkan "Username atau password salah".
+
+$username = "admin";
+$password = "secret123";
+
+if ($username === "admin" && $password === "secret123") {
+   echo "Akses diterima";
+} else {
+   echo "Username atau password salah";
+}
+
+------------------------------------------------
+
+Soal 12 — Kelayakan Diskon Belanja (||)
+
+Diketahui variabel $total_belanja = 150000 dan $is_member = false.
+Jika $total_belanja >= 100000 ATAU $is_member === true, tampilkan "Mendapat diskon".
+Jika tidak, tampilkan "Tidak mendapat diskon".
+
+$total_belanja = 150000;
+$is_member = false;
+
+if ($total_belanja >= 100000 || $is_member === true) {
+   echo "Mendapat diskon";
+} else {
+   echo "Tidak mendapat diskom";
+}
+
+------------------------------------------------
+
+Soal 13 — Seleksi Beasiswa (&&)
+
+Diketahui variabel $ipk = 3.6 dan $penghasilan_ortu = 3000000.
+Jika $ipk >= 3.5 DAN $penghasilan_ortu <= 5000000, tampilkan "Lolos Seleksi Beasiswa".
+Jika tidak, tampilkan "Tidak Lolos Seleksi Beasiswa".
+
+$ipk = 3.6;
+$penghasilan_ortu = 3000000;
+
+if ($ipk >= 3.5 && $penghasilan_ortu <= 5000000) {
+   echo "Lolos Seleksi Beasiswa";
+} else {
+   echo "Tidak Lolos Seleksi Beasiswa";
+}
+
+------------------------------------------------
+
+Soal 14 — Syarat Masuk Wahana Permainan (||)
+
+Diketahui variabel $tinggi_cm = 125 dan $pendamping = true.
+Jika $tinggi_cm >= 130 ATAU $pendamping === true, tampilkan "Boleh Naik Wahana".
+Jika tidak, tampilkan "Dilarang Naik Wahana".
+
+$tinggi_cm = 125;
+$pendamping = true;
+
+if ($tinggi_cm >= 130 || $pendamping = true) {
+   echo "Boleh Naik Wahana";
+} else {
+   echo "Dilarang Naik Wahana";
+}
+
+------------------------------------------------
+
+Soal 15 — Validasi Panjang Password
+
+Diketahui variabel $password = "abc".
+Jika panjang string $password kurang dari 8 (gunakan strlen($password) < 8), tampilkan "Password terlalu pendek".
+Jika tidak, tampilkan "Password memenuhi syarat".
+
+$password = "abc";
+if (strlen ($password) < 8) {
+   echo "Password terlalu pendek";
+} else {
+   echo "Password memenuhi syarat";
+}
+ 
+------------------------------------------------
+
+Soal 16 — Validasi Nama Produk
+
+Diketahui variabel = $nama_produk = "Presto";
+Jika panjang string $nama_produk lebih dari 10 karakter, tampilkan "Nama produk terlalu panjang"
+Jika tidak, tampilkan "Nama produk dapat digunakan"
+
+$nama_produk = "Presto";
+if (strlen ($nama_produk) > 10) {
+   echo "Nama produk terlalu panjang";
+} else {
+   echo "Nama produk dapat digunakan";
+}
+
+------------------------------------------------
+
+
+
