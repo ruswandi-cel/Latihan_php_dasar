@@ -6,7 +6,7 @@ if ( kondisi ) {
     // dijalankan jika kondisi FALSE 
 }
 
------------------------------------------------------
+
 
 2. Lebih dari Dua Kondisi ( if - elseif - else ) 
 
