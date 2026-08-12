@@ -2,6 +2,8 @@ if (syarat) {
     statement;
 }
 
+==============================
+
 1. Membandingkan Dua Angka
 
 $a=10;
@@ -233,7 +235,7 @@ if ($kode != "B001") {
  echo "Kode berbeda";
 }
 
-===================
+==========================
 
 
 
